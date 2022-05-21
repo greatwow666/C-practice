@@ -2,6 +2,6 @@
 
 int main (void)
 {
-    printf("ä½ å¥½,vscode,github!!!");
+    printf("ÄãºÃ,vscode,github!!!");
     return 0;
 }
