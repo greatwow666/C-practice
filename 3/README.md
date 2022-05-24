@@ -6,5 +6,4 @@ printf(格式串，表达式1，表达式2，.......)
 ```
 
 * 转换说明
->dhidadapfja;lgj;gja;fjapfja[pfjafgujopfjffjdfjffdfdjfdjfdjfjdfj]fjfjafja[fja[fj[afja[fjafa
-d;'akdadfjka[fka'fka'fkafjakfjka[fajk[fjaf[ajf[oafjka[fjka[fa]]]]]]]]]]]
+> 格式串包含普通字符和转换说明，转换说明以字符%开头，转换说明表示打印过程中待填充的占位符，跟随在字符%后面指定把从内部形式（二进制）转换成打印形式
