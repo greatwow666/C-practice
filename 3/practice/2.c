@@ -5,7 +5,7 @@ int main(void)
     int item, month, day, year;
     float price;
 
-    printf("Enter item munber:");
+    printf("Enter item number:");
     scanf("%d", &item);
 
     printf("Enter unit price:");
