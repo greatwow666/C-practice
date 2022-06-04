@@ -1,7 +1,7 @@
 #include <stdio.h>
 
-int main(void) {
-
+int main(void)
+{
     int d1, d2, m1, m2, y1, y2;
 
     printf("Enter a date (mm/dd/yy): ");
