@@ -7,9 +7,8 @@ int main(void)
     // putchar(a);
 
     // printf("SDDFFFFFF");
-
-    while(getchar() != '\n')
-        printf("1")
-        ;
+    char i;
+    while((i = getchar()) != '\n')
+        putchar(i);
     return 0;
 }
