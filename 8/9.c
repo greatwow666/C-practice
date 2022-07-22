@@ -2,8 +2,8 @@
 #include <time.h>
 #include <stdlib.h>
 
-#define LENGTH 10
-#define WIDTH 10
+#define LENGTH 20
+#define WIDTH 20
 
 
 int main(void)
@@ -23,15 +23,15 @@ int main(void)
 
         if (i-1 >= 0 && n[i-1][j] == 0)
             up = 1;
-        if (i+1 < 10 && n[i+1][j] == 0)
+        if (i+1 < WIDTH && n[i+1][j] == 0)
             down = 1;
-        if (j+1 < 10 && n[i][j+1] == 0)
+        if (j+1 < LENGTH && n[i][j+1] == 0)
             right = 1;
         if (j-1 >= 0 && n[i][j-1] == 0)
             left = 1;
         
         if (up + down + right + left == 0){
-            //printf("NO WAY!!!");
+            printf("NO WAY!!!\n\n");
             break;
         }
         
